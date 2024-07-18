@@ -108,7 +108,7 @@ This package only exposes the types below:
 
 ---
 
-#### SpecialColor
+#### `SpecialColor`
 
 Technically keywords, they provide ways of using special colors: `currentcolor`, `transparent`, `initial`, `inherit` and `unset`.
 
@@ -124,7 +124,7 @@ Each of them has a special meaning for the browser:
 
 ---
 
-#### SystemColor
+#### `SystemColor`
 
 This type represents a set of system-defined color keywords that correspond to system UI elements, which can adapt based on the user's operating system and theme settings.
 
@@ -140,14 +140,14 @@ Includes keywords like: `AccentColor`, `AccentColorText`, `ActiveText`, `ButtonB
 
 ---
 
-#### NamedStandardColor
+#### `NamedStandardColor`
 
 Common and standardized color identifiers.
 Includes values like: `black`, `silver`, `gray`, `white`, `maroon`, `red`, etc.
 
 ---
 
-#### NamedExtendedColor
+#### `NamedExtendedColor`
 
 Includes all of the colors defined by [`NamedStandardColor`](#namedstandardcolor) and 139 colors more, values like: `aliceblue`, `antiquewhite`, `aqua`, `aquamarine`, `azure`, `beige`, `bisque`, etc.
 
@@ -165,67 +165,67 @@ Includes all of the colors defined by [`NamedStandardColor`](#namedstandardcolor
 
 ---
 
-#### HexColor
+#### `HexColor`
 
 A template literal type that adheres to the format `#${string}`, effectively representing a Hex color.
 
 ---
 
-#### RgbColor
+#### `RgbColor`
 
 A template literal type that adheres to the format `rgb(${string})`, effectively representing an RGB color.
 
 ---
 
-#### RgbaColor
+#### `RgbaColor`
 
 A template literal type that adheres to the format `rgba(${string})`, effectively representing an RGBA color.
 
 ---
 
-#### HslColor
+#### `HslColor`
 
 A template literal type that adheres to the format `hsl(${string})`, effectively representing an HSL color.
 
 ---
 
-#### HwbColor
+#### `HwbColor`
 
 A template literal type that adheres to the format `hwb(${string})`, effectively representing an HWB color.
 
 ---
 
-#### LabColor
+#### `LabColor`
 
 A template literal type that adheres to the format `lab(${string})`, effectively representing a LAB color.
 
 ---
 
-#### LchColor
+#### `LchColor`
 
 A template literal type that adheres to the format `lch(${string})`, effectively representing a LCH color.
 
 ---
 
-#### OklabColor
+#### `OklabColor`
 
 A template literal type that adheres to the format `oklab(${string})`, effectively representing an Oklab color.
 
 ---
 
-#### OklchColor
+#### `OklchColor`
 
 A template literal type that adheres to the format `oklch(${string})`, effectively representing an Oklch color.
 
 ---
 
-#### LightDarkColor
+#### `LightDarkColor`
 
 A template literal type that adheres to the format `light-dark(${string})`, effectively representing a light-dark color.
 
 ---
 
-#### ColorMix
+#### `ColorMix`
 
 A template literal type that adheres to the format `color-mix(${string})`, effectively representing a color-mix.
 
@@ -235,7 +235,7 @@ A template literal type that adheres to the format `color-mix(${string})`, effec
 
 ---
 
-#### Color
+#### `Color`
 
 A broad color type that includes all of the previously mentioned color types:
 - `NamedStandardColor`
@@ -254,13 +254,13 @@ A broad color type that includes all of the previously mentioned color types:
 
 ---
 
-#### ColorWithKeywords
+#### `ColorWithKeywords`
 
 An even broader color type that includes the `Color` type (and all of the previously mentioned color types) with the addition of colors from the [SpecialColor](#specialcolor) type.
 
 ---
 
-#### ColorExtended
+#### `ColorExtended`
 
 The most broad color type that includes the `ColorWithKeywords` typ (and all of the previously mentioned color types) with the addition of colors from the [SystemColor](#systemcolor) type.
 
