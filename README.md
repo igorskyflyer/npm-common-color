@@ -161,8 +161,6 @@ Includes all of the colors defined by [`NamedStandardColor`](#namedstandardcolor
 > The following types are derived from a template literal type, the types do **NOT** validate the actual color.
 >
 
-<br>
-
 ---
 
 #### `HexColor`
