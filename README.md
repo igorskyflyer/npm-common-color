@@ -100,7 +100,8 @@ This package only exposes the types below:
 - `ColorExtended`
 
 <br>
-<br>
+
+---
 
 ### SpecialColor
 
@@ -116,7 +117,7 @@ Each of them has a special meaning for the browser:
 - `inherit`: inherits the color from the parent element
 - `unset`: resets the property to its natural value, either inherited or initial
 
-<br>
+---
 
 ### SystemColor
 
@@ -132,152 +133,92 @@ Includes keywords like: `AccentColor`, `AccentColorText`, `ActiveText`, `ButtonB
 > Learn more about [SystemColor](https://developer.mozilla.org/en-US/docs/Web/CSS/system-color) ![External link](https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/external.svg) on MDN.
 >
 
-<br>
+---
 
 ### NamedStandardColor
 
 Common and standardized color identifiers.
 Includes values like: `black`, `silver`, `gray`, `white`, `maroon`, `red`, etc.
 
-<br>
+---
 
 ### NamedExtendedColor
 
 Includes all of the colors defined by [`NamedStandardColor`](#namedstandardcolor) and 139 colors more, values like: `aliceblue`, `antiquewhite`, `aqua`, `aquamarine`, `azure`, `beige`, `bisque`, etc.
 
-<br>
+---
+
+> [!CAUTION]
+> The following types are derived from a template literal type, the types do **NOT** validate the actual color.
+>
+
+---
 
 ### HexColor
 
 A template literal type that adheres to the format `#${string}`, effectively representing a Hex color.
 
-<br>
-
-> [!CAUTION]
-> This is just a template literal type, it does **NOT** validate the actual Hex color.
->
-
-<br>
+---
 
 ### RgbColor
 
 A template literal type that adheres to the format `rgb(${string})`, effectively representing an RGB color.
 
-<br>
-
-> [!CAUTION]
-> This is just a template literal type, it does **NOT** validate the actual RGB color.
->
-
-<br>
+---
 
 ### RgbaColor
 
 A template literal type that adheres to the format `rgba(${string})`, effectively representing an RGBA color.
 
-<br>
-
-> [!CAUTION]
-> This is just a template literal type, it does **NOT** validate the actual RGBA color.
->
-
-<br>
+---
 
 ### HslColor
 
 A template literal type that adheres to the format `hsl(${string})`, effectively representing an HSL color.
 
-<br>
-
-> [!CAUTION]
-> This is just a template literal type, it does **NOT** validate the actual HSL color.
->
-
-<br>
+---
 
 ### HwbColor
 
 A template literal type that adheres to the format `hwb(${string})`, effectively representing an HWB color.
 
-<br>
-
-> [!CAUTION]
-> This is just a template literal type, it does **NOT** validate the actual HwbColor color.
->
-
-<br>
+---
 
 ### LabColor
 
 A template literal type that adheres to the format `lab(${string})`, effectively representing a LAB color.
 
-<br>
-
-> [!CAUTION]
-> This is just a template literal type, it does **NOT** validate the actual LAB color.
->
-
-<br>
+---
 
 ### LchColor
 
 A template literal type that adheres to the format `lch(${string})`, effectively representing a LCH color.
 
-<br>
-
-> [!CAUTION]
-> This is just a template literal type, it does **NOT** validate the actual LCH color.
->
-
-<br>
+---
 
 ### OklabColor
 
 A template literal type that adheres to the format `oklab(${string})`, effectively representing an Oklab color.
 
-<br>
-
-> [!CAUTION]
-> This is just a template literal type, it does **NOT** validate the actual Oklab color.
->
-
-<br>
+---
 
 ### OklchColor
 
 A template literal type that adheres to the format `oklch(${string})`, effectively representing an Oklch color.
 
-<br>
-
-> [!CAUTION]
-> This is just a template literal type, it does **NOT** validate the actual Oklch color.
->
-
-<br>
+---
 
 ### LightDarkColor
 
 A template literal type that adheres to the format `light-dark(${string})`, effectively representing a light-dark color.
 
-<br>
-
-> [!CAUTION]
-> This is just a template literal type, it does **NOT** validate the actual light-dark color.
->
-
-<br>
+---
 
 ### ColorMix
 
 A template literal type that adheres to the format `color-mix(${string})`, effectively representing a color-mix.
 
-<br>
-
-> [!CAUTION]
-> This is just a template literal type, it does **NOT** validate the actual color-mix color.
->
-
-<br>
+---
 
 ### Color
 
@@ -296,35 +237,17 @@ A broad color type that includes all of the previously mentioned color types:
 - `LightDarkColor`
 - `ColorMix`
 
-<br>
-
-> [!CAUTION]
-> This is just a template literal type, it does **NOT** validate the actual color.
->
-
-<br>
+---
 
 ### ColorWithKeywords
 
 An even broader color type that includes the `Color` type (and all of the previously mentioned color types) with the addition of colors from the [SpecialColor](#specialcolor) type.
 
-<br>
-
-> [!CAUTION]
-> This is just a template literal type, it does **NOT** validate the actual color.
->
-
-<br>
+---
 
 ### ColorExtended
 
 The most broad color type that includes the `ColorWithKeywords` typ (and all of the previously mentioned color types) with the addition of colors from the [SystemColor](#systemcolor) type.
-
-<br>
-
-> [!CAUTION]
-> This is just a template literal type, it does **NOT** validate the actual color.
->
 
 ---
 
