@@ -54,6 +54,7 @@
       - [OklchColor](#oklchcolor)
       - [LightDarkColor](#lightdarkcolor)
       - [ColorMix](#colormix)
+	- [Special](#special)
       - [Color](#color)
       - [ColorWithKeywords](#colorwithkeywords)
       - [ColorExtended](#colorextended)
@@ -229,6 +230,10 @@ A template literal type that adheres to the format `light-dark(${string})`, effe
 #### ColorMix
 
 A template literal type that adheres to the format `color-mix(${string})`, effectively representing a color-mix.
+
+---
+
+### Special
 
 ---
 
