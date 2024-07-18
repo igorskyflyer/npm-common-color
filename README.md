@@ -335,7 +335,8 @@ The most broad color type that includes the `ColorWithKeywords` typ (and all of 
 import type { Color } from '@igor.dvlpr/common-color'
 
 const uiColor: Color = '#0099ff' // ok, now do something with the Hex color
-const uiScrollbar: Color = 'rfb(0, 128, 255)' // will trigger an ERROR (type rFb instead of rGb)
+const uiScrollbar: Color = 'rfb(0, 128, 255)' // will trigger an ERROR
+                  // (typo, rFb instead of rGb)
 
 ```
 
