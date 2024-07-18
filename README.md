@@ -37,12 +37,12 @@
 
 - [Usage](#-usage)
 - [API](#-api)
-	- [Constants](#constants)
+	- [Constants](#-constants)
       - [SpecialColor](#specialcolor)
       - [SystemColor](#systemcolor)
       - [NamedStandardColor](#namedstandardcolor)
       - [NamedExtendedColor](#namedextendedcolor)
-	- [Template literals](#template-literals)
+	- [Template literals](#-template-literals)
       - [HexColor](#hexcolor)
       - [RgbColor](#rgbcolor)
       - [RgbaColor](#rgbacolor)
@@ -54,7 +54,7 @@
       - [OklchColor](#oklchcolor)
       - [LightDarkColor](#lightdarkcolor)
       - [ColorMix](#colormix)
-	- [Special](#special)
+	- [Special](#-special)
       - [Color](#color)
       - [ColorWithKeywords](#colorwithkeywords)
       - [ColorExtended](#colorextended)
@@ -104,7 +104,7 @@ This package only exposes the types below:
 
 <br>
 
-### Constants
+### 🤖 Constants
 
 ---
 
@@ -153,7 +153,7 @@ Includes all of the colors defined by [`NamedStandardColor`](#namedstandardcolor
 
 ---
 
-### Template literals
+### 📜 Template literals
 
 <br>
 
@@ -229,7 +229,7 @@ A template literal type that adheres to the format `color-mix(${string})`, effec
 
 ---
 
-### Special
+### 🦄 Special
 
 ---
 
