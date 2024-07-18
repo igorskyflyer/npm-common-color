@@ -148,6 +148,9 @@ Includes all of the colors defined by [`NamedStandardColor`](#namedstandardcolor
 
 ---
 
+<br>
+<br>
+
 > [!CAUTION]
 > The following types are derived from a template literal type, the types do **NOT** validate the actual color.
 >
