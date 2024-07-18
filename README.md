@@ -110,7 +110,7 @@ This package only exposes the types below:
 
 #### `SpecialColor`
 
-Technically keywords, they provide ways of using special colors: `currentcolor`, `transparent`, `initial`, `inherit` and `unset`.
+Technically, keywords - not colors per se, they provide ways of using special colors: `currentcolor`, `transparent`, `initial`, `inherit` and `unset`.
 
 <br>
 
