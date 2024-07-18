@@ -104,8 +104,6 @@ This package only exposes the types below:
 
 <br>
 
----
-
 ### Constants
 
 ---
