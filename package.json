@@ -1,43 +1,46 @@
 {
-	"name": "@igor.dvlpr/common-color",
-	"version": "1.0.0",
-	"description": "🎨 Provides common Color-related TypeScript types. 🌈",
-	"sideEffects": false,
-	"engines": {
-		"node": ">=20.0"
-	},
-	"types": "./dist/index.d.mts",
-	"main": "./dist/index.mjs",
-	"module": "./dist/index.mjs",
-	"files": [
-		"dist"
-	],
-	"scripts": {
-		"build": "tsc",
-		"pub": "npm run build && npm publish --access public"
-	},
-	"keywords": [
-		"common",
-		"utility",
-		"typescript",
-		"types",
-		"definition",
-		"color",
-		"hex",
-		"rgb",
-		"system",
-		"igorskyflyer",
-		"igor.dvlpr"
-	],
-	"license": "MIT",
-	"author": "Igor Dimitrijević <igor.dvlpr@gmail.com> (https://github.com/igorskyflyer)",
-	"funding": "https://ko-fi.com/igorskyflyer",
-	"homepage": "https://github.com/igorskyflyer/npm-common-color",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/igorskyflyer/npm-common-color.git"
-	},
-	"bugs": {
-		"url": "https://github.com/igorskyflyer/npm-common-color/issues"
-	}
+  "name": "@igor.dvlpr/common-color",
+  "version": "1.0.0",
+  "description": "🎨 Provides common Color-related TypeScript types. 🌈",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=20.0"
+  },
+  "types": "./dist/index.d.mts",
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "pub": "npm run build && npm publish --access public"
+  },
+  "keywords": [
+    "common",
+    "utility",
+    "typescript",
+    "types",
+    "definition",
+    "color",
+    "hex",
+    "rgb",
+    "system",
+    "igorskyflyer",
+    "igor.dvlpr"
+  ],
+  "license": "MIT",
+  "author": "Igor Dimitrijević <igor.dvlpr@gmail.com> (https://github.com/igorskyflyer)",
+  "funding": "https://ko-fi.com/igorskyflyer",
+  "homepage": "https://github.com/igorskyflyer/npm-common-color",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorskyflyer/npm-common-color.git"
+  },
+  "bugs": {
+    "url": "https://github.com/igorskyflyer/npm-common-color/issues"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "@types/node": "^20.14.11",
+    "typescript": "^5.5.3"
+  }
 }
