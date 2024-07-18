@@ -146,7 +146,6 @@ Includes values like: `black`, `silver`, `gray`, `white`, `maroon`, `red`, etc.
 
 Includes all of the colors defined by [`NamedStandardColor`](#namedstandardcolor) and 139 colors more, values like: `aliceblue`, `antiquewhite`, `aqua`, `aquamarine`, `azure`, `beige`, `bisque`, etc.
 
----
 
 <br>
 <br>
@@ -154,6 +153,9 @@ Includes all of the colors defined by [`NamedStandardColor`](#namedstandardcolor
 > [!CAUTION]
 > The following types are derived from a template literal type, the types do **NOT** validate the actual color.
 >
+
+<br>
+<br>
 
 ---
 
