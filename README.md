@@ -3,31 +3,31 @@
 <br>
 
 <p align="center">
-	🎨 Provides common Color-related TypeScript types. 🌈
+  🎨 Provides common Color-related TypeScript types. 🌈
 </p>
 
 <br>
 <br>
 
 <div align="center">
-	<blockquote>
-		<br>
-		<h4>💖 Support further development</h4>
-		<span>I work hard for every project, including this one and your support means a lot to me!
-		<br>
-		Consider buying me a coffee. ☕
-		<br>
-		<strong>Thank you for supporting my efforts! 🙏😊</strong></span>
-		<br>
-		<br>
-		<a href="https://ko-fi.com/igorskyflyer" target="_blank"><img src="https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/ko-fi.png" alt="Donate to igorskyflyer" width="150"></a>
-		<br>
-		<br>
-		<a href="https://github.com/igorskyflyer"><em>@igorskyflyer</em></a>
-		<br>
-		<br>
-		<br>
-	</blockquote>
+  <blockquote>
+    <br>
+    <h4>💖 Support further development</h4>
+    <span>I work hard for every project, including this one and your support means a lot to me!
+    <br>
+    Consider buying me a coffee. ☕
+    <br>
+    <strong>Thank you for supporting my efforts! 🙏😊</strong></span>
+    <br>
+    <br>
+    <a href="https://ko-fi.com/igorskyflyer" target="_blank"><img src="https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/ko-fi.png" alt="Donate to igorskyflyer" width="150"></a>
+    <br>
+    <br>
+    <a href="https://github.com/igorskyflyer"><em>@igorskyflyer</em></a>
+    <br>
+    <br>
+    <br>
+  </blockquote>
 </div>
 
 <br>
@@ -37,12 +37,12 @@
 
 - [Usage](#-usage)
 - [API](#-api)
-	- [Constants](#-constants)
+  - [Constants](#-constants)
       - [SpecialColor](#specialcolor)
       - [SystemColor](#systemcolor)
       - [NamedStandardColor](#namedstandardcolor)
       - [NamedExtendedColor](#namedextendedcolor)
-	- [Template literals](#-template-literals)
+  - [Template literals](#-template-literals)
       - [HexColor](#hexcolor)
       - [RgbColor](#rgbcolor)
       - [RgbaColor](#rgbacolor)
@@ -54,13 +54,13 @@
       - [OklchColor](#oklchcolor)
       - [LightDarkColor](#lightdarkcolor)
       - [ColorMix](#colormix)
-			- [LinearGradient](#lineargradient)
-			- [RadialGradient](#radialgradient)
-			- [ConicGradient](#conicgradient)
-			- [RepeatingLinearGradient](#repeatinglineargradient)
-			- [RepeatingRadialGradient](#repeatingradialgradient)
-			- [RepeatingConicGradient](#repeatingconicgradient)
-	- [Special](#-special)
+      - [LinearGradient](#lineargradient)
+      - [RadialGradient](#radialgradient)
+      - [ConicGradient](#conicgradient)
+      - [RepeatingLinearGradient](#repeatinglineargradient)
+      - [RepeatingRadialGradient](#repeatingradialgradient)
+      - [RepeatingConicGradient](#repeatingconicgradient)
+  - [Special](#-special)
       - [Color](#color)
       - [ColorWithKeywords](#colorwithkeywords)
       - [ColorExtended](#colorextended)
