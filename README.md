@@ -250,10 +250,6 @@ A template literal type that adheres to the format `color-mix(${string})`, effec
 > Gradients are supported from `v1.1.0`.
 >
 
-<br>
-
----
-
 #### `LinearGradient`
 
 A template literal type that adheres to the format `linear-gradient(${string})`, effectively representing a linear gradient.
