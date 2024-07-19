@@ -15,7 +15,11 @@
 - **🪅 feat**: add support for [`ConicGradient`](./README.md#conicgradient)
 - **🪅 feat**: add support for [`RepeatingConicGradient`](./README.md#repeatingconicgradient)
 
+<br>
+
 - **✅ fix**: remove duplicate colors from [`NamedExtendedColor`](./README.md#namedextendedcolor) type
+
+<br>
 
 - **📜 docs**: fix documentation
 
