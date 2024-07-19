@@ -54,6 +54,12 @@
       - [OklchColor](#oklchcolor)
       - [LightDarkColor](#lightdarkcolor)
       - [ColorMix](#colormix)
+			- [LinearGradient](#lineargradient)
+			- [RadialGradient](#radialgradient)
+			- [ConicGradient](#conicgradient)
+			- [RepeatingLinearGradient](#repeatinglineargradient)
+			- [RepeatingRadialGradient](#repeatingradialgradient)
+			- [RepeatingConicGradient](#repeatingconicgradient)
 	- [Special](#-special)
       - [Color](#color)
       - [ColorWithKeywords](#colorwithkeywords)
@@ -101,6 +107,12 @@ This package only exposes the types below:
 - `Color`
 - `ColorWithKeywords`
 - `ColorExtended`
+- `LinearGradient`
+- `RadialGradient`
+- `ConicGradient`
+- `RepeatingLinearGradient`
+- `RepeatingRadialGradient`
+- `RepeatingConicGradient`
 
 <br>
 
@@ -149,7 +161,7 @@ Includes values like: `black`, `silver`, `gray`, `white`, `maroon`, `red`, etc.
 
 #### `NamedExtendedColor`
 
-Includes all of the colors defined by [`NamedStandardColor`](#namedstandardcolor) and 139 colors more, values like: `aliceblue`, `antiquewhite`, `aqua`, `aquamarine`, `azure`, `beige`, `bisque`, etc.
+Includes all of the colors defined by [`NamedStandardColor`](#namedstandardcolor) and 131 colors more, values like: `aliceblue`, `antiquewhite`, `aqua`, `aquamarine`, `azure`, `beige`, `bisque`, etc.
 
 ---
 
@@ -229,6 +241,54 @@ A template literal type that adheres to the format `color-mix(${string})`, effec
 
 ---
 
+### Gradients
+
+
+<br>
+
+> [!TIP]
+> Gradients are supported from `v1.1.0`.
+>
+
+<br>
+<br>
+
+#### `LinearGradient`
+
+A template literal type that adheres to the format `linear-gradient(${string})`, effectively representing a linear gradient.
+
+---
+
+#### `RadialGradient`
+
+A template literal type that adheres to the format `radial-gradient(${string})`, effectively representing a radial gradient.
+
+---
+
+#### `ConicGradient`
+
+A template literal type that adheres to the format `conic-gradient(${string})`, effectively representing a conic gradient.
+
+---
+
+#### `RepeatingLinearGradient`
+
+A template literal type that adheres to the format `repeating-linear-gradient(${string})`, effectively representing a repeating linear gradient.
+
+---
+
+#### `RepeatingRadialGradient`
+
+A template literal type that adheres to the format `repeating-radial-gradient(${string})`, effectively representing a repeating radial gradient.
+
+---
+
+#### `RepeatingConicGradient`
+
+A template literal type that adheres to the format `repeating-conic-gradient(${string})`, effectively representing a repeating conic gradient.
+
+---
+
 ### 🦄 Special
 
 ---
@@ -249,18 +309,24 @@ A broad color type that includes all of the previously mentioned color types:
 - `OklchColor`
 - `LightDarkColor`
 - `ColorMix`
+- `LinearGradient`
+- `RadialGradient`
+- `ConicGradient`
+- `RepeatingLinearGradient`
+- `RepeatingRadialGradient`
+- `RepeatingConicGradient`
 
 ---
 
 #### `ColorWithKeywords`
 
-An even broader color type that includes the `Color` type (and all of the previously mentioned color types) with the addition of colors from the [SpecialColor](#specialcolor) type.
+An even broader color type that includes the [`Color`](#color) type (and all of the previously mentioned color types) with the addition of colors from the [SpecialColor](#specialcolor) type.
 
 ---
 
 #### `ColorExtended`
 
-The most broad color type that includes the `ColorWithKeywords` typ (and all of the previously mentioned color types) with the addition of colors from the [SystemColor](#systemcolor) type.
+The most broad color type that includes the [`ColorWithKeywords`](#colorwithkeywords) type (and all of the previously mentioned color types) with the addition of colors from the [SystemColor](#systemcolor) type.
 
 ---
 
