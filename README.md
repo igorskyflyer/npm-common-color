@@ -89,30 +89,30 @@ npm i "@igor.dvlpr/common-color"
 
 This package only exposes the types below:
 
-- `SpecialColor`
-- `SystemColor`
-- `NamedStandardColor`
-- `NamedExtendedColor`
-- `HexColor`
-- `RgbColor`
-- `RgbaColor`
-- `HslColor`
-- `HwbColor`
-- `LabColor`
-- `LchColor`
-- `OklabColor`
-- `OklchColor`
-- `LightDarkColor`
-- `ColorMix`
-- `Color`
-- `ColorWithKeywords`
-- `ColorExtended`
-- `LinearGradient`
-- `RadialGradient`
-- `ConicGradient`
-- `RepeatingLinearGradient`
-- `RepeatingRadialGradient`
-- `RepeatingConicGradient`
+- [`SpecialColor`](#specialcolor)
+- [`SystemColor`](#systemcolor)
+- [`NamedStandardColor`](#namedstandardcolor)
+- [`NamedExtendedColor`](#namedextendedcolor)
+- [`HexColor`](#hexcolor)
+- [`RgbColor`](#rgbcolor)
+- [`RgbaColor`](#rgbacolor)
+- [`HslColor`](#hslcolor)
+- [`HwbColor`](#hwbcolor)
+- [`LabColor`](#labcolor)
+- [`LchColor`](#lchcolor)
+- [`OklabColor`](#oklabcolor)
+- [`OklchColor`](#oklchcolor)
+- [`LightDarkColor`](#lightdarkcolor)
+- [`ColorMix`](#colormix)
+- [`Color`](#color)
+- [`ColorWithKeywords`](#colorwithkeywords)
+- [`ColorExtended`](#colorextended)
+- [`LinearGradient`](#lineargradient)
+- [`RadialGradient`](#radialgradient)
+- [`ConicGradient`](#conicgradient)
+- [`RepeatingLinearGradient`](#repeatinglineargradient)
+- [`RepeatingRadialGradient`](#repeatingradialgradient)
+- [`RepeatingConicGradient`](#repeatingconicgradient)
 
 <br>
 
@@ -295,37 +295,37 @@ A template literal type that adheres to the format `repeating-conic-gradient(${s
 #### `Color`
 
 A broad color type that includes all of the previously mentioned color types:
-- `NamedStandardColor`
-- `NamedExtendedColor`
-- `HexColor`
-- `RgbColor`
-- `RgbaColor`
-- `HslColor`
-- `HwbColor`
-- `LabColor`
-- `LchColor`
-- `OklabColor`
-- `OklchColor`
-- `LightDarkColor`
-- `ColorMix`
-- `LinearGradient`
-- `RadialGradient`
-- `ConicGradient`
-- `RepeatingLinearGradient`
-- `RepeatingRadialGradient`
-- `RepeatingConicGradient`
+- [`NamedStandardColor`](#namedstandardcolor)
+- [`NamedExtendedColor`](#namedextendedcolor)
+- [`HexColor`](#hexcolor)
+- [`RgbColor`](#rgbcolor)
+- [`RgbaColor`](#rgbacolor)
+- [`HslColor`](#hslcolor)
+- [`HwbColor`](#hwbcolor)
+- [`LabColor`](#labcolor)
+- [`LchColor`](#lchcolor)
+- [`OklabColor`](#oklabcolor)
+- [`OklchColor`](#oklchcolor)
+- [`LightDarkColor`](#lightdarkcolor)
+- [`ColorMix`](#colormix)
+- [`LinearGradient`](#lineargradient)
+- [`RadialGradient`](#radialgradient)
+- [`ConicGradient`](#conicgradient)
+- [`RepeatingLinearGradient`](#repeatinglineargradient)
+- [`RepeatingRadialGradient`](#repeatingradialgradient)
+- [`RepeatingConicGradient`](#repeatingconicgradient)
 
 ---
 
 #### `ColorWithKeywords`
 
-An even broader color type that includes the [`Color`](#color) type (and all of the previously mentioned color types) with the addition of colors from the [SpecialColor](#specialcolor) type.
+An even broader color type that includes the [`Color`](#color) type (and all of the previously mentioned color types) with the addition of colors from the [`SpecialColor`](#specialcolor) type.
 
 ---
 
 #### `ColorExtended`
 
-The most broad color type that includes the [`ColorWithKeywords`](#colorwithkeywords) type (and all of the previously mentioned color types) with the addition of colors from the [SystemColor](#systemcolor) type.
+The most broad color type that includes the [`ColorWithKeywords`](#colorwithkeywords) type (and all of the previously mentioned color types) with the addition of colors from the [`SystemColor`](#systemcolor) type.
 
 ---
 
