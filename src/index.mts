@@ -217,3 +217,11 @@ export type Color =
 
 export type ColorWithKeywords = Color | SpecialColor
 export type ColorExtended = ColorWithKeywords | SystemColor
+
+export type LinearGradient = `linear-gradient(${string})`
+export type RadialGradient = `radial-gradient(${string})`
+export type ConicGradient = `conic-gradient(${string})`
+
+export type RepeatingLinearGradient = `repeating-linear-gradient(${string})`
+export type RepeatingRadialGradient = `repeating-radial-gradient(${string})`
+export type RepeatingConicGradient = `repeating-conic-gradient(${string})`
