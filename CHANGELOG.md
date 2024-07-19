@@ -8,14 +8,14 @@
 
 <p align="right"><em>20-Jul-2024</em></p>
 
-- **🪅 feat**: add support for `LinearGradient`
-- **🪅 feat**: add support for `RepeatingLinearGradient`
-- **🪅 feat**: add support for `RadialGradient`
-- **🪅 feat**: add support for `RepeatingRadialGradient`
-- **🪅 feat**: add support for `ConicGradient`
-- **🪅 feat**: add support for `RepeatingConicGradient`
+- **🪅 feat**: add support for [`LinearGradient`](./README.md#lineargradient)
+- **🪅 feat**: add support for [`RepeatingLinearGradient`](./README.md#repeatinglineargradient)
+- **🪅 feat**: add support for [`RadialGradient`](./README.md#radialgradient)
+- **🪅 feat**: add support for [`RepeatingRadialGradient`](./README.md#repeatingradialgradient)
+- **🪅 feat**: add support for [`ConicGradient`](./README.md#conicgradient)
+- **🪅 feat**: add support for [`RepeatingConicGradient`](./README.md#repeatingconicgradient)
 
-- **✅ fix**: remove duplicate colors from `NamedExtendedColor` type
+- **✅ fix**: remove duplicate colors from [`NamedExtendedColor`](./README.md#namedextendedcolor) type
 
 - **📜 docs**: fix documentation
 
