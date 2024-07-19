@@ -251,7 +251,8 @@ A template literal type that adheres to the format `color-mix(${string})`, effec
 >
 
 <br>
-<br>
+
+---
 
 #### `LinearGradient`
 
