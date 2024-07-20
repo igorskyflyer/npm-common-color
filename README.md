@@ -80,7 +80,7 @@
 Install it by executing:
 
 ```shell
-npm i "@igor.dvlpr/common-color"
+npm i -D "@igor.dvlpr/common-color"
 ```
 
 <br>
@@ -104,15 +104,15 @@ This package only exposes the types below:
 - [`OklchColor`](#oklchcolor)
 - [`LightDarkColor`](#lightdarkcolor)
 - [`ColorMix`](#colormix)
-- [`Color`](#color)
-- [`ColorWithKeywords`](#colorwithkeywords)
-- [`ColorExtended`](#colorextended)
 - [`LinearGradient`](#lineargradient)
 - [`RadialGradient`](#radialgradient)
 - [`ConicGradient`](#conicgradient)
 - [`RepeatingLinearGradient`](#repeatinglineargradient)
 - [`RepeatingRadialGradient`](#repeatingradialgradient)
 - [`RepeatingConicGradient`](#repeatingconicgradient)
+- [`Color`](#color)
+- [`ColorWithKeywords`](#colorwithkeywords)
+- [`ColorExtended`](#colorextended)
 
 <br>
 
