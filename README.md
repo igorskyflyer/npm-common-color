@@ -64,7 +64,7 @@
       - [Color](#color)
       - [ColorWithKeywords](#colorwithkeywords)
       - [ColorExtended](#colorextended)
-  -[CSS levels](#css-levels)
+  - [CSS levels](#css-levels)
       - [CSS level 1](#csslevel1color)
       - [CSS level 3](#csslevel3color)
       - [CSS level 4](#csslevel4color)
