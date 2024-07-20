@@ -1,12 +1,14 @@
 // Author: Igor Dimitrijević (@igorskyflyer)
 
+/** @since v1.0.0 */
 export type SpecialColor =
   | 'currentcolor'
-  | 'transparent'
-  | 'initial'
   | 'inherit'
+  | 'initial'
+  | 'transparent'
   | 'unset'
 
+/** @since v1.0.0 */
 export type SystemColor =
   | 'AccentColor'
   | 'AccentColorText'
@@ -28,36 +30,35 @@ export type SystemColor =
   | 'SelectedItemText'
   | 'VisitedText'
 
+/** @since v1.0.0 */
 export type NamedStandardColor =
+  | 'aqua'
   | 'black'
-  | 'silver'
-  | 'gray'
-  | 'white'
-  | 'maroon'
-  | 'red'
-  | 'purple'
+  | 'blue'
   | 'fuchsia'
+  | 'gray'
   | 'green'
   | 'lime'
-  | 'olive'
-  | 'yellow'
+  | 'maroon'
   | 'navy'
-  | 'blue'
+  | 'olive'
+  | 'purple'
+  | 'red'
+  | 'silver'
   | 'teal'
-  | 'aqua'
+  | 'white'
+  | 'yellow'
 
+/** @since v1.0.0 */
 export type NamedExtendedColor =
   | NamedStandardColor
   | 'aliceblue'
   | 'antiquewhite'
-  | 'aqua'
   | 'aquamarine'
   | 'azure'
   | 'beige'
   | 'bisque'
-  | 'black'
   | 'blanchedalmond'
-  | 'blue'
   | 'blueviolet'
   | 'brown'
   | 'burlywood'
@@ -85,7 +86,6 @@ export type NamedExtendedColor =
   | 'darkseagreen'
   | 'darkslateblue'
   | 'darkslategray'
-  | 'darkslategrey'
   | 'darkturquoise'
   | 'darkviolet'
   | 'deeppink'
@@ -100,8 +100,6 @@ export type NamedExtendedColor =
   | 'ghostwhite'
   | 'gold'
   | 'goldenrod'
-  | 'gray'
-  | 'green'
   | 'greenyellow'
   | 'grey'
   | 'honeydew'
@@ -129,9 +127,9 @@ export type NamedExtendedColor =
   | 'lightslategrey'
   | 'lightsteelblue'
   | 'lightyellow'
-  | 'lime'
   | 'limegreen'
   | 'linen'
+  | 'magenta'
   | 'mediumaquamarine'
   | 'mediumblue'
   | 'mediumorchid'
@@ -148,6 +146,7 @@ export type NamedExtendedColor =
   | 'navajowhite'
   | 'oldlace'
   | 'olivedrab'
+  | 'orange'
   | 'orangered'
   | 'orchid'
   | 'palegoldenrod'
@@ -161,7 +160,6 @@ export type NamedExtendedColor =
   | 'plum'
   | 'powderblue'
   | 'rebeccapurple'
-  | 'red'
   | 'rosybrown'
   | 'royalblue'
   | 'saddlebrown'
@@ -170,7 +168,6 @@ export type NamedExtendedColor =
   | 'seagreen'
   | 'seashell'
   | 'sienna'
-  | 'silver'
   | 'skyblue'
   | 'slateblue'
   | 'slategray'
@@ -185,21 +182,46 @@ export type NamedExtendedColor =
   | 'violet'
   | 'wheat'
   | 'whitesmoke'
-  | 'yellow'
   | 'yellowgreen'
 
+/** @since v1.0.0 */
 export type HexColor = `#${string}`
+/** @since v1.0.0 */
 export type RgbColor = `rgb(${string})`
+/** @since v1.0.0 */
 export type RgbaColor = `rgba(${string})`
+/** @since v1.0.0 */
 export type HslColor = `hsl(${string})`
+/** @since v1.0.0 */
 export type HwbColor = `hwb(${string})`
+/** @since v1.0.0 */
 export type LabColor = `lab(${string})`
+/** @since v1.0.0 */
 export type LchColor = `lch(${string})`
+/** @since v1.0.0 */
 export type OklabColor = `oklab(${string})`
+/** @since v1.0.0 */
 export type OklchColor = `oklch(${string})`
+/** @since v1.0.0 */
 export type LightDarkColor = `light-dark(${string})`
+/** @since v1.0.0 */
 export type ColorMix = `color-mix(${string})`
 
+/** @since v1.1.0 */
+export type LinearGradient = `linear-gradient(${string})`
+/** @since v1.1.0 */
+export type RadialGradient = `radial-gradient(${string})`
+/** @since v1.1.0 */
+export type ConicGradient = `conic-gradient(${string})`
+
+/** @since v1.1.0 */
+export type RepeatingLinearGradient = `repeating-linear-gradient(${string})`
+/** @since v1.1.0 */
+export type RepeatingRadialGradient = `repeating-radial-gradient(${string})`
+/** @since v1.1.0 */
+export type RepeatingConicGradient = `repeating-conic-gradient(${string})`
+
+/** @since v1.0.0 */
 export type Color =
   | NamedStandardColor
   | NamedExtendedColor
@@ -214,14 +236,14 @@ export type Color =
   | OklchColor
   | LightDarkColor
   | ColorMix
+  | LinearGradient
+  | RadialGradient
+  | ConicGradient
+  | RepeatingLinearGradient
+  | RepeatingRadialGradient
+  | RepeatingConicGradient
 
+/** @since v1.0.0 */
 export type ColorWithKeywords = Color | SpecialColor
+/** @since v1.0.0 */
 export type ColorExtended = ColorWithKeywords | SystemColor
-
-export type LinearGradient = `linear-gradient(${string})`
-export type RadialGradient = `radial-gradient(${string})`
-export type ConicGradient = `conic-gradient(${string})`
-
-export type RepeatingLinearGradient = `repeating-linear-gradient(${string})`
-export type RepeatingRadialGradient = `repeating-radial-gradient(${string})`
-export type RepeatingConicGradient = `repeating-conic-gradient(${string})`
