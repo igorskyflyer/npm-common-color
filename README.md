@@ -104,6 +104,7 @@ This package only exposes the types below:
 - [`OklchColor`](#oklchcolor)
 - [`LightDarkColor`](#lightdarkcolor)
 - [`ColorMix`](#colormix)
+- [`DeviceCmyk`](#)
 - [`LinearGradient`](#lineargradient)
 - [`RadialGradient`](#radialgradient)
 - [`ConicGradient`](#conicgradient)
@@ -241,6 +242,12 @@ A template literal type that adheres to the format `color-mix(${string})`, effec
 
 ---
 
+#### `DeviceCmyk`
+
+A template literal type that adheres to the format `device-cmyk(${string})`, effectively representing a device-cmyk color.
+
+---
+
 ### Gradients
 
 
@@ -326,6 +333,61 @@ An even broader color type that includes the [`Color`](#color) type (and all of 
 #### `ColorExtended`
 
 The most broad color type that includes the [`ColorWithKeywords`](#colorwithkeywords) type (and all of the previously mentioned color types) with the addition of colors from the [`SystemColor`](#systemcolor) type.
+
+---
+
+### CSS levels
+`since v1.2.0`
+
+<br>
+
+In addition to using any color type, since `v1.2.0` it is possible to narrow the color types to a certain [CSS color module level](https://www.w3.org/TR/?filter-tr-name=color+module+level) ![An external link](https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/external.svg).
+
+<br>
+
+#### CssLevel1Color
+
+Includes CSS color module level 1 types:
+- [`HexColor`](#hexcolor)
+- [`RgbColor`](#rgbcolor)
+- [`NamedStandardColor`](#namedstandardcolor)
+
+---
+
+#### CssLevel3Color
+
+Includes previously mentioned CSS color module level 1 types and CSS color module level 3 types:
+- [`RgbaColor`](#rgbacolor)
+- [`HslColor`](#hslcolor)
+- [`SystemColor`](#systemcolor)
+- [`NamedExtendedColor`](#namedextendedcolor)
+- [`SpecialColor`](#specialcolor)
+- [`LinearGradient`](#lineargradient)
+- [`RadialGradient`](#radialgradient)
+- [`RepeatingLinearGradient`](#repeatinglineargradient)
+- [`RepeatingRadialGradient`](#repeatingradialgradient)
+
+---
+
+#### CssLevel4Color
+
+Includes previously mentioned CSS color module level 3 types and CSS color module level 4 types:
+- [`HwbColor`](#hwbcolor)
+- [`LabColor`](#labcolor)
+- [`LchColor`](#lchcolor)
+- [`OklabColor`](#oklabcolor)
+- [`OklchColor`](#oklchcolor)
+- [`ConicGradient`](#lineargradient)
+- [`RepeatingConicGradient`](#repeatingconicgradient)
+
+---
+
+#### CssLevel5Color
+
+Includes previously mentioned CSS color module level 4 types and CSS color module level 5 types:
+- [`LightDarkColor`](#lightdarkcolor)
+- [`DeviceCmyk`](#devicecmyk)
+- [`ColorMix`](#colormix)
 
 ---
 
