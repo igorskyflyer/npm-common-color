@@ -262,7 +262,7 @@ A template literal type that adheres to the format `device-cmyk(${string})`, eff
 > Gradients are supported from `v1.1.0`.
 >
 
-<br>
+---
 
 #### `LinearGradient`
 
@@ -349,7 +349,7 @@ The most broad color type that includes the [`ColorWithKeywords`](#colorwithkeyw
 
 In addition to using any color type, since `v1.2.0` it is possible to narrow the color types to a certain [CSS color module level](https://www.w3.org/TR/?filter-tr-name=color+module+level) ![An external link](https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/external.svg).
 
-<br>
+---
 
 #### CssLevel1Color
 
