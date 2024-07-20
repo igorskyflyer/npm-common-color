@@ -4,6 +4,16 @@
 
 <br>
 
+## v1.2.0
+
+<p align="right"><em>20-Jul-2024</em></p>
+
+- **🪅 feat**: add support for [`DeviceCmyk`](./README.md#devicecmyk)
+- **🪅 feat**: add CSS-level dependent color types [`CSS color module levels`](./README.md#css-levels)
+
+<br>
+<br>
+
 ## v1.1.0
 
 <p align="right"><em>20-Jul-2024</em></p>
