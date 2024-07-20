@@ -363,7 +363,7 @@ Includes CSS color module level 1 types:
 
 #### CssLevel3Color
 
-Includes previously mentioned CSS color module level 1 types and CSS color module level 3 types:
+Includes previously mentioned CSS color module level 1 types and the following CSS color module level 3 types:
 - [`RgbaColor`](#rgbacolor)
 - [`HslColor`](#hslcolor)
 - [`SystemColor`](#systemcolor)
@@ -378,7 +378,7 @@ Includes previously mentioned CSS color module level 1 types and CSS color modul
 
 #### CssLevel4Color
 
-Includes previously mentioned CSS color module level 3 types and CSS color module level 4 types:
+Includes previously mentioned CSS color module level 3 types and the following CSS color module level 4 types:
 - [`HwbColor`](#hwbcolor)
 - [`LabColor`](#labcolor)
 - [`LchColor`](#lchcolor)
@@ -391,7 +391,7 @@ Includes previously mentioned CSS color module level 3 types and CSS color modul
 
 #### CssLevel5Color
 
-Includes previously mentioned CSS color module level 4 types and CSS color module level 5 types:
+Includes previously mentioned CSS color module level 4 types and the following CSS color module level 5 types:
 - [`LightDarkColor`](#lightdarkcolor)
 - [`DeviceCmyk`](#devicecmyk)
 - [`ColorMix`](#colormix)
