@@ -320,6 +320,7 @@ A broad color type that includes all of the previously mentioned color types:
 - [`OklchColor`](#oklchcolor)
 - [`LightDarkColor`](#lightdarkcolor)
 - [`ColorMix`](#colormix)
+- [`DeviceCmyk`](#devicecmyk)
 - [`LinearGradient`](#lineargradient)
 - [`RadialGradient`](#radialgradient)
 - [`ConicGradient`](#conicgradient)
