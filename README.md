@@ -342,7 +342,7 @@ The most broad color type that includes the [`ColorWithKeywords`](#colorwithkeyw
 ---
 
 ### CSS levels
-`since v1.2.0`
+<code align="right>since v1.2.0</code>
 
 <br>
 
