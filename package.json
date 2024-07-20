@@ -1,6 +1,6 @@
 {
   "name": "@igor.dvlpr/common-color",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "🎨 Provides common Color-related TypeScript types. 🌈",
   "sideEffects": false,
   "engines": {
@@ -21,8 +21,11 @@
     "types",
     "definition",
     "color",
+    "javascript",
     "hex",
     "rgb",
+    "css",
+    "w3",
     "system",
     "igorskyflyer",
     "igor.dvlpr"
