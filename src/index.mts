@@ -206,6 +206,8 @@ export type OklchColor = `oklch(${string})`
 export type LightDarkColor = `light-dark(${string})`
 /** @since v1.0.0 */
 export type ColorMix = `color-mix(${string})`
+/** @since v1.2.0 */
+export type DeviceCmyk = `device-cmyk(${string})`
 
 /** @since v1.1.0 */
 export type LinearGradient = `linear-gradient(${string})`
@@ -236,6 +238,7 @@ export type Color =
   | OklchColor
   | LightDarkColor
   | ColorMix
+  | DeviceCmyk
   | LinearGradient
   | RadialGradient
   | ConicGradient
@@ -247,3 +250,34 @@ export type Color =
 export type ColorWithKeywords = Color | SpecialColor
 /** @since v1.0.0 */
 export type ColorExtended = ColorWithKeywords | SystemColor
+
+/** @since v1.2.0 */
+export type CssLevel1Color = HexColor | RgbColor | NamedStandardColor
+/** @since v1.2.0 */
+export type CssLevel3Color =
+  | CssLevel1Color
+  | RgbaColor
+  | HslColor
+  | SystemColor
+  | NamedExtendedColor
+  | SpecialColor
+  | LinearGradient
+  | RadialGradient
+  | RepeatingLinearGradient
+  | RepeatingRadialGradient
+/** @since v1.2.0 */
+export type CssLevel4Color =
+  | CssLevel3Color
+  | HwbColor
+  | LabColor
+  | LchColor
+  | OklabColor
+  | OklchColor
+  | ConicGradient
+  | RepeatingConicGradient
+/** @since v1.2.0 */
+export type CssLevel5Color =
+  | CssLevel4Color
+  | LightDarkColor
+  | DeviceCmyk
+  | ColorMix
