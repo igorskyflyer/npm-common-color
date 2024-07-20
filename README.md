@@ -54,6 +54,7 @@
       - [OklchColor](#oklchcolor)
       - [LightDarkColor](#lightdarkcolor)
       - [ColorMix](#colormix)
+      - [DeviceCmyk](#devicecmyk)
       - [LinearGradient](#lineargradient)
       - [RadialGradient](#radialgradient)
       - [ConicGradient](#conicgradient)
