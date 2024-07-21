@@ -13,7 +13,7 @@
 <br>
 
 - **✅ fix**: remove the redundant CSS color module level 1 type
-- **✅ fix**: update CSS color module level 3 types
+- **✅ fix**: update the CSS color module level 3 types
 
 <br>
 
