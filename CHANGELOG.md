@@ -9,8 +9,18 @@
 <p align="right"><em>22-Jul-2024</em></p>
 
 - **🪅 feat**: add support for [`ColorContrast`](./README.md#colorcontrast)
-- **✅ fix**: remove redundant CSS color module level 1
+
+<br>
+
+- **✅ fix**: remove the redundant CSS color module level 1 type
+- **✅ fix**: update CSS color module level 3 types
+
+<br>
+
 - **💻 dev**: improve JSDocs
+
+<br>
+
 - **📜 docs**: add more info for each type
 
 <br>
