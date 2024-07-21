@@ -55,6 +55,7 @@
       - [LightDarkColor](#lightdarkcolor)
       - [ColorMix](#colormix)
       - [DeviceCmyk](#devicecmyk)
+      - [ColorContrast](#colorcontrast)
       - [LinearGradient](#lineargradient)
       - [RadialGradient](#radialgradient)
       - [ConicGradient](#conicgradient)
@@ -111,6 +112,7 @@ This package only exposes the types below:
 - [`LightDarkColor`](#lightdarkcolor)
 - [`ColorMix`](#colormix)
 - [`DeviceCmyk`](#devicecmyk)
+- [`ColorContrast`](#colorcontrast)
 - [`LinearGradient`](#lineargradient)
 - [`RadialGradient`](#radialgradient)
 - [`ConicGradient`](#conicgradient)
@@ -251,6 +253,12 @@ A template literal type that adheres to the format `color-mix(${string})`, effec
 #### `DeviceCmyk`
 
 A template literal type that adheres to the format `device-cmyk(${string})`, effectively representing a device-cmyk color.
+
+---
+
+#### `ColorContrast`
+
+A template literal type that adheres to the format `color-contrast(${string})`, effectively representing a color-contrast color.
 
 ---
 
@@ -399,6 +407,13 @@ Includes previously mentioned CSS color module level **`4`** types and the follo
 
 ---
 
+#### CssLevel6Color
+
+Includes previously mentioned CSS color module level **`5`** types and the following CSS color module level **`6`** types:
+- [`ColorContrast`](#colorcontrast)
+
+---
+
 ## ✨ Examples
 
 `ui.ts`
@@ -415,7 +430,7 @@ const uiScrollbar: Color = 'rfb(0, 128, 255)' // will trigger an ERROR
 
 ## 📝 Changelog
 
-> 📑 Changelog is available here: [CHANGELOG.md](https://github.com/igorskyflyer/npm-common-color/blob/main/CHANGELOG.md).
+📑 Changelog is available here: [CHANGELOG.md](https://github.com/igorskyflyer/npm-common-color/blob/main/CHANGELOG.md).
 
 ---
 
