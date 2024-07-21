@@ -380,6 +380,7 @@ export type CssLevel3Color =
  * A CSS color module level 4 type that builts on top of CSS color module level 3 and defines color types for Hwb, Lab, Lch, Oklab and Oklch colors, as well as conic gradient and repeating conic gradient.
  * @see https://www.w3.org/TR/css-color-4/
  * @see https://www.w3.org/TR/css-images-4/
+ * @since v1.2.0
  */
 export type CssLevel4Color =
   | CssLevel3Color
@@ -391,8 +392,8 @@ export type CssLevel4Color =
   | ConicGradient
   | RepeatingConicGradient
 /**
- *
- * @see
+ * A CSS color module level 5 type that builts on top of CSS color module level 4 and defines color types for light-dark, device-cmyk and color-mix color types.
+ * @see https://www.w3.org/TR/css-color-5/
  * @since v1.2.0
  */
 export type CssLevel5Color =
