@@ -67,7 +67,6 @@
       - [ColorWithKeywords](#colorwithkeywords)
       - [ColorExtended](#colorextended)
   - [CSS levels](#css-levels)
-      - [CSS level 1](#csslevel1color)
       - [CSS level 3](#csslevel3color)
       - [CSS level 4](#csslevel4color)
       - [CSS level 5](#csslevel5color)
@@ -362,18 +361,12 @@ In addition to using any color type, since `v1.2.0` it is possible to narrow the
 
 ---
 
-#### CssLevel1Color
+#### CssLevel3Color
 
-Includes CSS color module level **`1`** types:
+Includes the following CSS color module level **`3`** types:
 - [`HexColor`](#hexcolor)
 - [`RgbColor`](#rgbcolor)
 - [`NamedStandardColor`](#namedstandardcolor)
-
----
-
-#### CssLevel3Color
-
-Includes previously mentioned CSS color module level **`1`** types and the following CSS color module level **`3`** types:
 - [`RgbaColor`](#rgbacolor)
 - [`HslColor`](#hslcolor)
 - [`SystemColor`](#systemcolor)
