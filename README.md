@@ -330,6 +330,7 @@ A broad color type that includes all of the previously mentioned color types:
 - [`LightDarkColor`](#lightdarkcolor)
 - [`ColorMix`](#colormix)
 - [`DeviceCmyk`](#devicecmyk)
+- [`ColorContrast`](#colorcontrast)
 - [`LinearGradient`](#lineargradient)
 - [`RadialGradient`](#radialgradient)
 - [`ConicGradient`](#conicgradient)
