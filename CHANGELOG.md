@@ -4,6 +4,17 @@
 
 <br>
 
+## v1.3.0
+
+<p align="right"><em>22-Jul-2024</em></p>
+
+- **🪅 feat**: add support for [`ColorContrast`](./README.md#colorcontrast)
+- **💻 dev**: improve JSDocs
+- **📜 docs**: add more info for each type
+
+<br>
+<br>
+
 ## v1.2.0
 
 <p align="right"><em>20-Jul-2024</em></p>
