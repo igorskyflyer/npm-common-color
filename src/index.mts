@@ -358,7 +358,7 @@ export type ColorWithKeywords = Color | SpecialColor
 export type ColorExtended = ColorWithKeywords | SystemColor
 
 /**
- * A CSS color module level 3 type that defines color types for Hex colors, named colors, RGB(A) colors, HSL colors, system colors, defaulting keywords and repeating and non-repeating linear and radial gradients.
+ * A CSS color module level 3 type that defines color types for Hex, named, RGB(A), HSL and system colors, defaulting keywords and repeating and non-repeating linear and radial gradients.
  * @see https://www.w3.org/TR/css-color-3/
  * @see https://www.w3.org/TR/css-images-3/
  * @since v1.2.0
@@ -377,9 +377,9 @@ export type CssLevel3Color =
   | RepeatingLinearGradient
   | RepeatingRadialGradient
 /**
- *
- * @see
- * @since v1.2.0
+ * A CSS color module level 4 type that builts on top of CSS color module level 3 and defines color types for Hwb, Lab, Lch, Oklab and Oklch colors, as well as conic gradient and repeating conic gradient.
+ * @see https://www.w3.org/TR/css-color-4/
+ * @see https://www.w3.org/TR/css-images-4/
  */
 export type CssLevel4Color =
   | CssLevel3Color
