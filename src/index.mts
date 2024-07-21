@@ -403,7 +403,7 @@ export type CssLevel5Color =
   | ColorMix
 /**
  * A CSS color module level 6 type that builts on top of CSS color module level 5 and defines color types for color-contrast.
- * @see https://www.w3.org/TR/css-color-6/
+ * @see https://drafts.csswg.org/css-color-6/
  * @since v1.3.0
  */
 export type CssLevel6Color = CssLevel5Color | ColorContrast
