@@ -1,14 +1,19 @@
-## 📒 Changelog
+# 📒 Changelog
 
-### of [@igor.dvlpr/common-color](https://github.com/igorskyflyer/npm-common-color)
+### of [@igorskyflyer/common-color](https://github.com/igorskyflyer/npm-common-color)
 
 <br>
 
-## v1.3.0
+## v1.4.0 (*28-Aug-2025*)
 
-<p align="right"><em>22-Jul-2024</em></p>
+- **💻 dev**: upgrade Node to >= v22
+- **💻 dev**: upgrade dependencies
 
-- **🪅 feat**: add support for [`ColorContrast`](./README.md#colorcontrast)
+<br>
+
+## v1.3.0 (*22-Jul-2024*)
+
+- **✨ feat**: add support for [`ColorContrast`](./README.md#colorcontrast)
 
 <br>
 
@@ -26,26 +31,22 @@
 <br>
 <br>
 
-## v1.2.0
+## v1.2.0 (*20-Jul-2024*)
 
-<p align="right"><em>20-Jul-2024</em></p>
-
-- **🪅 feat**: add support for [`DeviceCmyk`](./README.md#devicecmyk)
-- **🪅 feat**: add CSS-level dependent color types [`CSS color module levels`](./README.md#css-levels)
+- **✨ feat**: add support for [`DeviceCmyk`](./README.md#devicecmyk)
+- **✨ feat**: add CSS-level dependent color types [`CSS color module levels`](./README.md#css-levels)
 
 <br>
 <br>
 
-## v1.1.0
+## v1.1.0 (*20-Jul-2024*)
 
-<p align="right"><em>20-Jul-2024</em></p>
-
-- **🪅 feat**: add support for [`LinearGradient`](./README.md#lineargradient)
-- **🪅 feat**: add support for [`RepeatingLinearGradient`](./README.md#repeatinglineargradient)
-- **🪅 feat**: add support for [`RadialGradient`](./README.md#radialgradient)
-- **🪅 feat**: add support for [`RepeatingRadialGradient`](./README.md#repeatingradialgradient)
-- **🪅 feat**: add support for [`ConicGradient`](./README.md#conicgradient)
-- **🪅 feat**: add support for [`RepeatingConicGradient`](./README.md#repeatingconicgradient)
+- **✨ feat**: add support for [`LinearGradient`](./README.md#lineargradient)
+- **✨ feat**: add support for [`RepeatingLinearGradient`](./README.md#repeatinglineargradient)
+- **✨ feat**: add support for [`RadialGradient`](./README.md#radialgradient)
+- **✨ feat**: add support for [`RepeatingRadialGradient`](./README.md#repeatingradialgradient)
+- **✨ feat**: add support for [`ConicGradient`](./README.md#conicgradient)
+- **✨ feat**: add support for [`RepeatingConicGradient`](./README.md#repeatingconicgradient)
 
 <br>
 
@@ -58,8 +59,6 @@
 <br>
 <br>
 
-## v1.0.0
-
-<p align="right"><em>19-Jul-2024</em></p>
+## v1.0.0 (*19-Jul-2024*)
 
 - **🚀 launch**: initial release 🎉
