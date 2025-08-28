@@ -1,40 +1,20 @@
-<h1 align="center">Common color types</h1>
-
-<br>
-
-<p align="center">
-  🎨 Provides common Color-related TypeScript types. 🌈
-</p>
-
-<br>
-<br>
-
 <div align="center">
-  <blockquote>
-    <br>
-    <h4>💖 Support further development</h4>
-    <span>I work hard for every project, including this one and your support means a lot to me!
-    <br>
-    Consider buying me a coffee. ☕
-    <br>
-    <strong>Thank you for supporting my efforts! 🙏😊</strong></span>
-    <br>
-    <br>
-    <a href="https://ko-fi.com/igorskyflyer" target="_blank"><img src="https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/ko-fi.png" alt="Donate to igorskyflyer" width="150"></a>
-    <br>
-    <br>
-    <a href="https://github.com/igorskyflyer"><em>@igorskyflyer</em></a>
-    <br>
-    <br>
-    <br>
-  </blockquote>
+  <img src="https://raw.githubusercontent.com/igorskyflyer/npm-common-color/main/media/common-color.png" alt="Icon of Common Color" width="256" height="256">
+  <h1>Common Color</h1>
 </div>
 
 <br>
+
+<h4 align="center">
+  🎨 Provides common Color-related TypeScript types. 🌈
+</h4>
+
+<br>
 <br>
 
-## 📃 Table of contents
+## 📃 Table of Contents
 
+- [Features](#-features)
 - [Usage](#-usage)
 - [API](#-api)
   - [Constants](#-constants)
@@ -70,63 +50,51 @@
       - [CSS level 3](#csslevel3color)
       - [CSS level 4](#csslevel4color)
       - [CSS level 5](#csslevel5color)
-- [Examples](#-examples)
+- [Examples](#️-examples)
 - [Changelog](#-changelog)
+- [Support](#-support)
 - [License](#-license)
 - [Related](#-related)
 - [Author](#-author)
 
----
+<br>
+<br>
+
+## 🤖 Features
+
+- 🎨 Supports every major CSS color format and keyword
+- 🌈 Includes named colors, system colors, and special keywords
+- 🔢 Handles `HEX`, `RGB(A)`, `HSL`, `HWB`, `Lab`, `LCH`, `OKLab`, and `OKLCH`
+- 🌀 Covers gradients: `linear`, `radial`, `conic`, and `repeating` variants
+- ⚡ Supports modern CSS functions like `color-mix`, `light-dark`, `device-cmyk`, `color-contrast`
+- 📚 Typed definitions for CSS _Color Modules Level **3**–**6**_
+- 🛡 Strong TypeScript typing for accuracy and autocomplete
 
 <br>
 <br>
 
 ## 🕵🏼 Usage
 
-Install it by executing:
+Install it by executing any of the following, depending on your preferred package manager:
 
-```shell
-npm i -D "@igor.dvlpr/common-color"
+```bash
+pnpm add @igorskyflyer/common-color
 ```
 
+```bash
+yarn add @igorskyflyer/common-color
+```
+
+```bash
+npm i @igorskyflyer/common-color
+```
+
+<br>
 <br>
 
 ## 🤹🏼 API
 
-This package only exposes the types below:
-
-- [`SpecialColor`](#specialcolor)
-- [`SystemColor`](#systemcolor)
-- [`NamedStandardColor`](#namedstandardcolor)
-- [`NamedExtendedColor`](#namedextendedcolor)
-- [`HexColor`](#hexcolor)
-- [`RgbColor`](#rgbcolor)
-- [`RgbaColor`](#rgbacolor)
-- [`HslColor`](#hslcolor)
-- [`HwbColor`](#hwbcolor)
-- [`LabColor`](#labcolor)
-- [`LchColor`](#lchcolor)
-- [`OklabColor`](#oklabcolor)
-- [`OklchColor`](#oklchcolor)
-- [`LightDarkColor`](#lightdarkcolor)
-- [`ColorMix`](#colormix)
-- [`DeviceCmyk`](#devicecmyk)
-- [`ColorContrast`](#colorcontrast)
-- [`LinearGradient`](#lineargradient)
-- [`RadialGradient`](#radialgradient)
-- [`ConicGradient`](#conicgradient)
-- [`RepeatingLinearGradient`](#repeatinglineargradient)
-- [`RepeatingRadialGradient`](#repeatingradialgradient)
-- [`RepeatingConicGradient`](#repeatingconicgradient)
-- [`Color`](#color)
-- [`ColorWithKeywords`](#colorwithkeywords)
-- [`ColorExtended`](#colorextended)
-
-<br>
-
 ### 🤖 Constants
-
----
 
 #### `SpecialColor`
 
@@ -406,13 +374,14 @@ Includes previously mentioned CSS color module level **`4`** types and the follo
 Includes previously mentioned CSS color module level **`5`** types and the following CSS color module level **`6`** types:
 - [`ColorContrast`](#colorcontrast)
 
----
+<br>
+<br>
 
-## ✨ Examples
+## 🗒️ Examples
 
 `ui.ts`
 ```ts
-import type { Color } from '@igor.dvlpr/common-color'
+import type { Color } from '@igorskyflyer/common-color'
 
 const uiColor: Color = '#0099ff' // ok, now do something with the Hex color
 const uiScrollbar: Color = 'rfb(0, 128, 255)' // will trigger an ERROR
@@ -420,51 +389,74 @@ const uiScrollbar: Color = 'rfb(0, 128, 255)' // will trigger an ERROR
 
 ```
 
----
+
+<br>
+<br>
 
 ## 📝 Changelog
 
-📑 Changelog is available here: [CHANGELOG.md](https://github.com/igorskyflyer/npm-common-color/blob/main/CHANGELOG.md).
+📑 The changelog is available here, [CHANGELOG.md](https://github.com/igorskyflyer/npm-common-color/blob/main/CHANGELOG.md).
 
----
+<br>
+<br>
 
 ## 🪪 License
 
 Licensed under the MIT license which is available here, [MIT license](https://github.com/igorskyflyer/npm-common-color/blob/main/LICENSE).
 
----
+<br>
+<br>
+
+## 💖 Support
+
+<div align="center">
+  I work hard for every project, including this one and your support means a lot to me!
+  <br>
+  Consider buying me a coffee. ☕
+  <br>
+  <br>
+  <a href="https://ko-fi.com/igorskyflyer" target="_blank"><img src="https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/ko-fi.png" alt="Donate to igorskyflyer" width="180" height="46"></a>
+  <br>
+  <br>
+  <em>Thank you for supporting my efforts!</em> 🙏😊
+</div>
+
+<br>
+<br>
 
 ## 🧬 Related
 
-[@igor.dvlpr/unc-path](https://www.npmjs.com/package/@igor.dvlpr/unc-path)
+[@igorskyflyer/unc-path](https://www.npmjs.com/package/@igorskyflyer/unc-path)
 
 > _🥽 Provides ways of parsing UNC paths and checking whether they are valid. 🎱_
 
 <br>
 
-[@igor.dvlpr/keppo](https://www.npmjs.com/package/@igor.dvlpr/keppo)
+[@igorskyflyer/keppo](https://www.npmjs.com/package/@igorskyflyer/keppo)
 
 > _🎡 Parse, manage, compare and output SemVer-compatible version numbers. 🛡_
 
 <br>
 
-[@igor.dvlpr/jmap](https://www.npmjs.com/package/@igor.dvlpr/jmap)
+[@igorskyflyer/jmap](https://www.npmjs.com/package/@igorskyflyer/jmap)
 
 > _🕶️ Reads a JSON file into a Map. 🌻_
 
 <br>
 
-[@igor.dvlpr/zing](https://www.npmjs.com/package/@igor.dvlpr/zing)
+[@igorskyflyer/zing](https://www.npmjs.com/package/@igorskyflyer/zing)
 
 > _🐌 Zing is a C# style String formatter for JavaScript that empowers Strings with positional arguments - composite formatting. 🚀_
 
 <br>
 
-[@igor.dvlpr/duoscribi](https://www.npmjs.com/package/@igor.dvlpr/duoscribi)
+[@igorskyflyer/duoscribi](https://www.npmjs.com/package/@igorskyflyer/duoscribi)
 
 > _✒ DúöScríbî allows you to convert letters with diacritics to regular letters. 🤓_
 
----
+<br>
+<br>
+<br>
 
-### 👨🏻‍💻 Author
+## 👨🏻‍💻 Author
 Created by **Igor Dimitrijević** ([*@igorskyflyer*](https://github.com/igorskyflyer/)).
